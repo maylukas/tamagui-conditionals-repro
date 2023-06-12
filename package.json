@@ -1,0 +1,23 @@
+{
+  "name": "tamagui-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@tamagui/babel-plugin": "^1.32.4",
+    "@tamagui/react-native-media-driver": "^1.32.4",
+    "@tamagui/shorthands": "^1.32.4",
+    "@tamagui/themes": "^1.32.4",
+    "@types/react": "^18.2.11",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.4",
+    "babel-preset-expo": "^9.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tamagui": "^1.32.4"
+  },
+  "scripts": {
+    "transpile": "babel --extensions .ts,.tsx ./src -d ./dist"
+  }
+}
